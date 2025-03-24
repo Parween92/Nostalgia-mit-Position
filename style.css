@@ -11,7 +11,7 @@
         flex-wrap: wrap;
         justify-content:center;
         align-items: center;
-        
+        /* align-content: space-between; */
         height:100vh;
         background: url('./Win-pa.png');
         background-repeat: no-repeat;
@@ -75,7 +75,7 @@
         filter:drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
     }
 
-    footer{
+    /* footer{
         color:white;
         display:block;
         width:100%;
@@ -83,4 +83,4 @@
         padding:1em;
         text-align: center;
     }
-    
+     */

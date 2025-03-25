@@ -11,11 +11,33 @@
         flex-wrap: wrap;
         justify-content:center;
         align-items: center;
-        /* align-content: space-between; */
+        align-content: space-between;
         height:100vh;
         background: url('./Win-pa.png');
         background-repeat: no-repeat;
         background-size:cover;
+    }
+    
+    header{
+        height: auto;
+    width: 100%;
+    }
+    nav{
+        display:block;
+        background-color: rgb(28, 44, 42);
+        padding:0.5em;
+    }
+
+    body > header > nav > ul > li{
+        color:white;
+        font-weight:bold;
+    }
+    ul{
+        display: flex
+        ;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
     }
     
     .window{
@@ -23,7 +45,7 @@
        position:relative;
        height:180px;
        width:500px;
-    
+       /* top: 50%; */
     background-color:rgb(185, 185, 185);
     border-top: 2px solid white;  
       border-left: 2px solid white; 
@@ -75,12 +97,13 @@
         filter:drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
     }
 
-    /* footer{
+    footer{
         color:white;
         display:block;
         width:100%;
         background-color: rgb(28, 44, 42);
         padding:1em;
         text-align: center;
+      
     }
-     */
+    

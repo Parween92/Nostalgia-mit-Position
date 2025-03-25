@@ -91,6 +91,7 @@
 
     button:hover{
         color:rgb(255, 98, 0);
+        font-weight:bold;
     }
     
     img{
